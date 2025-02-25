@@ -36,3 +36,4 @@ print(f"Optional Character Match: {pattern2.search(x1)}")
 pattern3 = "ca{1,2}t"
 re.search(pattern3, x1)
 print(f"Repetition Match: {re.search(pattern3, x1)}")
+
